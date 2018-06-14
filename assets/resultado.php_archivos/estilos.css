@@ -1,0 +1,69 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	width: 74%;
+	margin: auto;
+}
+
+.contacto_header{
+	
+	display: table;
+	margin-left: auto;
+}
+.contacto_header li {
+	float: left;
+	display: inline;
+	padding-right: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.social-icons {
+	
+	display: table;
+	width: 100%;
+}
+.logoClass {
+	
+	float: left;
+}
+.social-icons ul{
+	display: table;
+	margin-top: 43px;
+	margin-left: auto;
+}
+.social-icons ul li {
+	float: left;
+}
+.wrapper{
+	margin:auto;
+	display: table;
+}
+.wrapper ul{
+	position: relative;
+	
+}
+.wrapper ul li{
+	display: table;
+	float: left;
+}
+.wrapper ul a{
+	display:table;
+	color:#e97226;
+	text-decoration:none;
+	/*padding:15px 20px;*/
+	line-height:normal;
+	font-size:14px;
+	border: 1px solid #c3c3c3;
+	font-family: 'Montserrat', sans-serif;
+	margin:auto;
+	float: left;	
+}
+.wrapper a:hover {
+    background-color: orange;
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+}

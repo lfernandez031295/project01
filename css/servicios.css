@@ -1,0 +1,56 @@
+.consDisp{
+		display: table;
+		margin: auto;
+}
+.consDisp h2{
+		display: table;
+		float: left;
+		font-family: 'Montserrat', sans-serif;
+}
+.consDisp h2 .disp {
+	color:#e97226;
+	font-family: 'Montserrat', sans-serif;
+}
+.sucursDispo{
+	display: table;
+	margin: auto;
+}
+.ingrese ::-webkit-input-placeholder{
+	
+	font-family: 'Montserrat', sans-serif;
+}
+
+.sucursDispo h4 {
+	float:  left;
+	display: table;
+	font-family: 'Montserrat', sans-serif;
+}
+.sucurales{
+	display: table;
+	margin: auto;
+}
+.sucursDispo p {
+	float: left;
+	display: table;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.sucurales ul{
+		float: left;
+		display: table;
+}
+.sucurales ul p li {
+	
+	font-family: 'Montserrat', sans-serif;
+}
+content {
+	display: table;
+	width: 90%;
+	margin: auto;
+}
+
+.ingrese input{
+width: 775px;
+display:table;
+margin:auto;
+}
