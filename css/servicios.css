@@ -1,56 +1,114 @@
 .consDisp{
 		display: table;
 		margin: auto;
+		margin-bottom: 20px;
 }
 .consDisp h2{
 		display: table;
 		float: left;
-		font-family: 'Montserrat', sans-serif;
+		color:#123b74;
 }
 .consDisp h2 .disp {
 	color:#e97226;
-	font-family: 'Montserrat', sans-serif;
 }
 .sucursDispo{
+	width: 100%;
 	display: table;
 	margin: auto;
 }
 .ingrese ::-webkit-input-placeholder{
 	
-	font-family: 'Montserrat', sans-serif;
 }
 
 .sucursDispo h4 {
 	float:  left;
 	display: table;
-	font-family: 'Montserrat', sans-serif;
+	color: #e97226;
+	font-size: 0.9rem;
 }
 .sucurales{
-	display: table;
-	margin: auto;
+	/*display: table;*/
+	margin-top: 20px;
 }
 .sucursDispo p {
-	float: left;
+	margin-left: auto;
+	float: right;
 	display: table;
-	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8rem;
+	color: #123b74;
+	font-weight: bold;
 	
 }
 .sucurales ul{
 		float: left;
 		display: table;
 }
-.sucurales ul p li {
+.sucurales ul {
+		border-right: 1px solid black;
+}
+.sucurales ul:last-child {
+		border: none;
+}
+.sucurales ul p,li {
 	
-	font-family: 'Montserrat', sans-serif;
+	margin-left: 10px;
+}
+.sucurales ul li{
+	font-size: 1rem;
+}
+.sucurales ul li input, .sucursDispo p input {
+	margin-right: 5px;
+	float: left;
+}
+.sucurales input.checkitem {
+	background: red;
 }
 content {
 	display: table;
-	width: 90%;
+	width: 75%;
 	margin: auto;
 }
 
-.ingrese input{
-width: 775px;
-display:table;
-margin:auto;
+.ingrese {
+	width: 100%;
+	display:table;
+	margin:auto;
+	font-weight: bold;
+	border: 2px solid #123b74;
+	margin-bottom: 10px;
+}
+.ingrese input {
+	display:table;
+	margin:auto;
+	font-weight: bold;
+	margin: 10px;
+	width: 98%;
+	border: none;
+	color: #123b74;
+}
+.buscarCss {
+	display: table;
+	margin: auto;
+}
+.buscarCss input {
+	font-weight: bold;
+	color: white;
+	background-color: #e97226;
+	border: none;
+	font-size: 0.8rem;
+	padding: 7px 30px;
+}
+
+.sucurales ul p {
+	color: #184f9b;
+	font-size: 0.8rem;
+}
+.sucurales ul li {
+
+	color: #123b74;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.sucurales ul li {
+	transform: scale(0.7); 
 }
